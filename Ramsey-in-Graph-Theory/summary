@@ -1,0 +1,7 @@
+# Ramsey in Graph Theory
+
+An exploration of Infinite and Finite Ramsey Theory through the lens of graph colorings. This project accompanies a web post walking through the mathematical foundations of Ramsey's theorems, including formal proofs, and their philosophical implications.
+
+The code implements two approaches to finding Ramsey numbers: a brute force coloring search and a backtracking algorithm guided by a danger-scoring heuristic that prunes the search space. Visualizations of graph colorings are generated throughout to illustrate the search process, including an animated walkthrough of the backtracking algorithm in action.
+
+Helper functions are defined in `utils.py` and imported into the main Jupyter notebook, which mirrors the narrative structure of the post.

@@ -138,3 +138,5 @@ def make_edges_by_vertex(N):
         for j in range(i):
             edges.append((j, i))
     return edges
+
+COLOR_NAMES = ['Red', 'Blue', 'Green', 'Yellow', 'Magenta', 'Cyan']
